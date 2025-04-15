@@ -181,6 +181,9 @@ In the old system, JavaScript had to “mail” instructions over the bridge. Wi
 | **Performance**       | Slower due to overhead and async | Faster with direct calls and bytecode    |
 
 
+---
+
+
 **Understanding the Performance Gains: Stock React Native vs. Hermes**
 
 

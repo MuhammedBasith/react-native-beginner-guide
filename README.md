@@ -50,7 +50,7 @@ Integrating common native mobile capabilities.
 
 Let's put theory into practice! This simple app demonstrates many of the concepts covered.
 
-*   **[Project Code](./project-inspireme/)**: Browse the source code of the `InspireMe` app. Make sure to follow the setup instructions in its own `README.md`.
+*   **[Project Code](https://github.com/MuhammedBasith/inspire-me)**: Browse the source code of the `InspireMe` app. Make sure to follow the setup instructions in its own `README.md`.
 *   **[Project Walkthrough](./docs/project-inspireme-walkthrough.md)**: A detailed explanation of how the `InspireMe` app is built, screen by screen.
 
 ## 🌍 Broader Context & Further Learning

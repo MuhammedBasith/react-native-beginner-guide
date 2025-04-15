@@ -23,7 +23,7 @@ This was the original architecture React Native launched with.
     *   **Serialization:** All data crossing the bridge *must* be serialized (typically to JSON strings) and then deserialized on the other side.
 
 **Diagrammatic Representation (Conceptual):**
-![[images/Screenshot 2025-04-14 at 12.15.40 AM.png]]
+![Diagrammatic Representation](images/Screenshot%202025-04-14%20at%2012.15.40%20AM.png)
 
 **Limitations of the Bridge Architecture:**
 

@@ -80,7 +80,7 @@ JSI is the *foundation*. The new architecture replaces core parts of React Nativ
 
 **Diagrammatic Representation (Conceptual):**
 
-![[images/Screenshot 2025-04-14 at 12.15.16 AM.png]]
+![Diagrammatic Representation](images/Screenshot%202025-04-14%20at%2012.15.16%20AM.png)
 
 
 **Role of Hermes in the New Architecture:**
@@ -184,7 +184,8 @@ In the old system, JavaScript had to “mail” instructions over the bridge. Wi
 **Understanding the Performance Gains: Stock React Native vs. Hermes**
 
 
-![[images/Screenshot 2025-04-13 at 11.33.05 PM.png]]
+![Diagrammatic Representation](images/Screenshot%202025-04-13%20at%2011.33.05%20PM.png)
+
 
 **1. TTI (Time to Interaction)**
 

@@ -49,12 +49,6 @@ The `flexDirection` property sets the primary axis along which flex items are la
 
 ---
 
-flexDirection value | Primary Axis | Cross Axis
-row (default) | Horizontal | Vertical
-row-reverse | Horizontal (reversed) | Vertical
-column | Vertical | Horizontal
-column-reverse | Vertical (reversed) | Horizontal
-
 #### 3. Justify Content
 The `justifyContent` property controls the alignment of flex items along the primary axis:
 - `'flex-start'`: Items align to the start (top for column, left for row).
@@ -88,6 +82,48 @@ The `alignItems` property aligns flex items along the cross axis (perpendicular 
 </View>
 ```
 - The text is centered vertically within the 100-unit-high container.
+
+---
+
+### So what is the *primary axis*?
+
+- The **primary axis** is the direction **along which** the items are arranged.
+- The **cross axis** is the direction **perpendicular to** that.
+
+Here’s how it works:
+
+| `flexDirection` value | Primary Axis      | Cross Axis        |
+|------------------------|-------------------|-------------------|
+| `row` (default)        | **Horizontal**    | Vertical          |
+| `row-reverse`          | **Horizontal** (reversed) | Vertical |
+| `column`               | **Vertical**      | Horizontal        |
+| `column-reverse`       | **Vertical** (reversed) | Horizontal  |
+
+### So `justifyContent` aligns items **along** the primary axis.
+
+Let’s look at a quick example:
+
+```jsx
+<View style={{ flexDirection: 'row', justifyContent: 'center' }}>
+  <Text>Item 1</Text>
+  <Text>Item 2</Text>
+</View>
+```
+
+- Since `flexDirection` is `'row'`, the **primary axis is horizontal**.
+- `justifyContent: 'center'` will center the items **horizontally**.
+
+Change it to:
+
+```jsx
+<View style={{ flexDirection: 'column', justifyContent: 'center' }}>
+  <Text>Item 1</Text>
+  <Text>Item 2</Text>
+</View>
+```
+
+- Now the primary axis is **vertical**.
+- So `justifyContent: 'center'` centers the items **vertically**.
 
 ---
 

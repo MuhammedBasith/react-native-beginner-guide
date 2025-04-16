@@ -4,5 +4,7 @@
 - [Sending notification requests to APNs](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns)  
 - [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging)  
 - [Fabric and TurboModules](https://nearform.com/digital-community/fabric-turbomodules-part-3/) 
-- [Flexbox a Visual Guide](https://medium.com/wix-engineering/the-full-react-native-layout-cheat-sheet-a4147802405c) 
+- [Flexbox a Visual Guide](https://medium.com/wix-engineering/the-full-react-native-layout-cheat-sheet-a4147802405c)
+- [SafeArea Demonstration](https://www.freecodecamp.org/news/how-to-use-safe-area-context-to-avoid-notches-in-react-native-apps/)
+
 

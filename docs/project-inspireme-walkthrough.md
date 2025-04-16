@@ -66,7 +66,7 @@ The `README.md` file is your guide here. Let's break down those setup steps:
 
 **(File: `screens/HomeScreen.tsx`) - The Welcome Screen**
 
-![Screenshot](images/Screenshot_1744724072.png)
+<img src="images/Screenshot_1744724072.png" alt="Screenshot 1" width="300"/>
 
 *   **Purpose:** The initial screen with buttons to start the main actions.
 *   **Key Imports:** Standard React Native components (`View`, `Text`, `StyleSheet`, `TouchableOpacity`, `ImageBackground`).

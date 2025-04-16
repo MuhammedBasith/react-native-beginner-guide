@@ -87,7 +87,7 @@ The `README.md` file is your guide here. Let's break down those setup steps:
 
 **(File: `screens/QuoteScreen.tsx`) - Displaying & Saving Quotes**
 
-![Screenshot](images/Screenshot_1744724107.png)
+<img src="images/Screenshot_1744724107.png" alt="Screenshot 2" width="300"/>
 
 *   **Purpose:** Shows the fetched quote and author over a random background, allows saving.
 *   **Key Imports:** `View`, `Text`, `StyleSheet`, `ImageBackground`, `TouchableOpacity`, `Alert` (for simple pop-up messages), `AsyncStorage`.
@@ -113,7 +113,7 @@ The `README.md` file is your guide here. Let's break down those setup steps:
 
 **(File: `screens/FavoritesScreen.tsx`) - Viewing Saved Quotes**
 
-![Screenshot](images/Screenshot_1744724116.png)
+<img src="images/Screenshot_1744724116.png" alt="Screenshot 3" width="300"/>
 
 *   **Purpose:** Loads and displays the list of saved favorite quotes. Allows removal.
 *   **Key Imports:** `useState` (to hold the list of favorites in the component's state), `useCallback` & `useFocusEffect` (from React Navigation), `FlatList` (for efficient scrolling lists), `AsyncStorage`, `Alert`.

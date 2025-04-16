@@ -230,3 +230,13 @@ While Hermes can technically be used with React Native's older Bridge-based arch
 *   **Addressing Old Criticisms:** The performance limitations shown for "Stock RN" (slower TTI, larger size, higher memory usage) were common criticisms of earlier React Native versions relying on the Bridge and JSC.
 *   **Optimized Integration:** The New Architecture's JSI (JavaScript Interface) allows for a much tighter and more efficient connection between the JavaScript engine and the native side compared to the old Bridge. Hermes is designed to leverage JSI effectively.
 *   **Performance Focus:** The entire New Architecture effort, including Hermes, Fabric, and TurboModules, is fundamentally about improving React Native's performance and efficiency to be closer to native development. This image provides concrete evidence of the success of the Hermes part of that effort.
+
+---
+
+![Without Hermes](images/wo_hermes.jpg)
+
+---
+
+![With Hermes](images//w_hermes.jpg)
+
+---

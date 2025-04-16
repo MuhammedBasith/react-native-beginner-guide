@@ -1,4 +1,4 @@
-React Native's New Architecture - Parashuram N - React Conf 2018: https://www.youtube.com/watch?v=UcqRXTriUVI
+React Native's New Architecture - Parashuram N - React Conf 2018: https://www.youtube.com/watch?v=UcqRXTriUVI \n
 Hermes JS Engine: https://github.com/facebook/hermes/blob/main/README.md
 Toward Hermes being the Default: https://reactnative.dev/blog/2021/10/26/toward-hermes-being-the-default
 

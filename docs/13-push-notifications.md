@@ -277,7 +277,7 @@ export default NotificationHandler;
 ---
 ---
 
-#Summary
+# Summary
 
 1.  **Getting Permission & an Address:** First, when your app starts (or at a sensible time), it needs to ask the user, 'Hey, is it cool if I send you notifications?' If the user says yes, the app then asks the phone's operating system (iOS or Android) to register it for notifications. The OS talks to Apple's (APNS) or Google's (FCM) servers, and gets back a unique **Device Token**. Think of this token like a specific mailing address for *your app installation* on *that specific phone*.
 2.  **Telling Your Server the Address:** Your app gets this special token and usually sends it immediately to *your backend server*. Your server needs to save this token, probably linking it to the user's account (so you know who to send messages to later).

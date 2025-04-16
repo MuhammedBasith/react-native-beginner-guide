@@ -6,5 +6,4 @@
 - [Fabric and TurboModules](https://nearform.com/digital-community/fabric-turbomodules-part-3/) 
 - [Flexbox a Visual Guide](https://medium.com/wix-engineering/the-full-react-native-layout-cheat-sheet-a4147802405c)
 - [SafeArea Demonstration](https://www.freecodecamp.org/news/how-to-use-safe-area-context-to-avoid-notches-in-react-native-apps/)
-
-
+- [Building a Scalable Chat UI in React Native: A Modular Approach](https://nameisjayant.medium.com/building-a-scalable-chat-ui-in-react-native-a-modular-approach-cca79027a815)

@@ -49,6 +49,12 @@ The `flexDirection` property sets the primary axis along which flex items are la
 
 ---
 
+flexDirection value | Primary Axis | Cross Axis
+row (default) | Horizontal | Vertical
+row-reverse | Horizontal (reversed) | Vertical
+column | Vertical | Horizontal
+column-reverse | Vertical (reversed) | Horizontal
+
 #### 3. Justify Content
 The `justifyContent` property controls the alignment of flex items along the primary axis:
 - `'flex-start'`: Items align to the start (top for column, left for row).
